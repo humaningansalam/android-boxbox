@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BoxBox</string>
+    <string name="title_normal">Normal</string>
+    <string name="title_parking">Parking</string>
+    <string name="title_event">Event</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_exit">Exit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">안드로이드 프로젝트</string>
+    <string name="nav_header_subtitle_1">블랙박스영상재생 어플</string>
+    <string name="nav_header_subtitle_2">윤상훈</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_normal">Normal</string>
+    <string name="menu_parking">Parking</string>
+    <string name="menu_event">Event</string>
+
+    <string name="menu_ckfbutton">전방 파일</string>
+    <string name="menu_ckrbutton">후방 파일</string>
+
+    <string name="previous_date">이전 날짜</string>
+    <string name="next_date">다음 날짜</string>
+
+    <string name="menu_search">search</string>
+    <string name="menu_refresh">refresh</string>
+</resources>

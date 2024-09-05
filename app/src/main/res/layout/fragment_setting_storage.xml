@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".setting.Setting_StorageFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/sdInfoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="저장 위치 설정"
+            android:textSize="28dp" />
+        <TextView
+            android:id="@+id/storedPathText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="(현재저장경로 : 내장 메모리)"
+            android:textSize="20dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <RadioGroup
+            android:id="@+id/radioGroupStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/internal_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="내장메모리"
+                android:textSize="20dp" />
+            <RadioButton
+                android:id="@+id/external_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:text="외장메모리"
+                android:textSize="20dp" />
+        </RadioGroup>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
